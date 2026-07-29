@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="g" cx="85%" cy="15%" r="70%">
+      <stop offset="0" stop-color="#3a2d1e"/>
+      <stop offset="1" stop-color="#07101d"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#fff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <path d="M90 143V73l34-20 34 20v70l-34 20-34-20Z" fill="none" stroke="#D7A35E" stroke-width="7"/>
+  <path d="M109 84h30M109 108h30M109 132h30" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+  <text x="185" y="130" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">TNS <tspan fill="#D7A35E" font-weight="400">GROUP</tspan></text>
+  <text x="88" y="300" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Управленческий консалтинг</text>
+  <text x="88" y="372" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">и проектный бэк-офис</text>
+  <text x="90" y="465" fill="#b8c4d2" font-family="Arial, Helvetica, sans-serif" font-size="28">Промышленность · Строительство · Инфраструктура</text>
+  <rect x="90" y="515" width="185" height="5" fill="#D7A35E"/>
+</svg>
