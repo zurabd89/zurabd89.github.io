@@ -26,10 +26,12 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--white);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Manrope", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.65;
+  font-weight: 400;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 body.menu-open { overflow: hidden; }
 img { max-width: 100%; display: block; }
@@ -151,24 +153,28 @@ button { cursor: pointer; }
 
 h1, h2, h3, p { margin-top: 0; }
 h1, h2, h3 {
-  line-height: 1.13;
-  letter-spacing: -0.035em;
+  font-family: "Manrope", Arial, sans-serif;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
 }
+
 h1 {
   max-width: 850px;
   margin-bottom: 26px;
-  font-size: clamp(46px, 6.3vw, 86px);
-  font-weight: 750;
+  font-size: clamp(46px, 6.3vw, 82px);
+  font-weight: 700;
 }
+
 h2 {
   margin-bottom: 24px;
-  font-size: clamp(34px, 4vw, 58px);
-  font-weight: 730;
+  font-size: clamp(34px, 4vw, 54px);
+  font-weight: 700;
 }
+
 h3 {
   margin-bottom: 14px;
   font-size: 23px;
-  font-weight: 720;
+  font-weight: 600;
 }
 
 .button {
@@ -319,14 +325,29 @@ h3 {
 }
 .section-heading h2 { max-width: 600px; }
 .section-copy { padding-top: 35px; }
-.section-copy p { color: var(--muted); font-size: 18px; }
-.lead-copy { color: var(--ink) !important; font-size: 22px !important; line-height: 1.55; }
+.section-copy p {
+  color: var(--muted);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.lead-copy {
+  color: var(--ink) !important;
+  font-size: 19px !important;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
 .accent-line {
-  margin-top: 32px;
+  margin-top: 30px;
   padding: 18px 20px;
   color: var(--ink) !important;
   background: var(--accent-soft);
   border-left: 4px solid var(--accent);
+  font-size: 17px !important;
+  font-weight: 500;
+  line-height: 1.65;
 }
 
 .section-title-row {
