@@ -1,20 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-  <defs>
-    <radialGradient id="g" cx="85%" cy="15%" r="70%">
-      <stop offset="0" stop-color="#1d2c40"/>
-      <stop offset="1" stop-color="#07101d"/>
-    </radialGradient>
-    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-      <path d="M60 0H0V60" fill="none" stroke="#fff" stroke-opacity=".07"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="630" fill="url(#g)"/>
-  <rect width="1200" height="630" fill="url(#grid)"/>
-  <path d="M90 143V73l34-20 34 20v70l-34 20-34-20Z" fill="none" stroke="#8FA4BF" stroke-width="7"/>
-  <path d="M109 84h30M109 108h30M109 132h30" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
-  <text x="185" y="130" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">TNS <tspan fill="#8FA4BF" font-weight="400">GROUP</tspan></text>
-  <text x="88" y="300" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Управленческий консалтинг</text>
-  <text x="88" y="372" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">и проектный бэк-офис</text>
-  <text x="90" y="465" fill="#b8c4d2" font-family="Arial, Helvetica, sans-serif" font-size="28">Промышленность · Строительство · Инфраструктура</text>
-  <rect x="90" y="515" width="185" height="5" fill="#8FA4BF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#F7F3EA"/>
+<circle cx="970" cy="110" r="320" fill="#EFE7D7"/>
+<g transform="translate(90 140)">
+  <path d="M0 0H180M90 0V180" stroke="#B7A071" stroke-width="10" stroke-linecap="round"/>
+  <path d="M15 180V35L165 180V35" fill="none" stroke="#17304A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="340" y="250" fill="#17304A" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="700">TNS GROUP</text>
+<text x="345" y="320" fill="#66717B" font-family="Arial,Helvetica,sans-serif" font-size="30">Внешняя команда для бизнеса</text>
+<text x="345" y="374" fill="#8F7B52" font-family="Arial,Helvetica,sans-serif" font-size="24">Back Office · Management · Industrial &amp; Projects</text>
 </svg>
