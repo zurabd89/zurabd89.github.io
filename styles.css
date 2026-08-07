@@ -9,10 +9,10 @@
   --line: #dbe1e8;
   --soft: #f4f6f8;
   --white: #ffffff;
-  --accent: #d7a35e;
-  --accent-dark: #a56f2d;
-  --accent-soft: #f2e5d3;
-  --success: #5fc7a1;
+  --accent: #8fa4bf;
+  --accent-dark: #5f748f;
+  --accent-soft: #e9eff5;
+  --success: #6fb39e;
   --shadow: 0 24px 70px rgba(7, 16, 29, 0.14);
   --radius-lg: 24px;
   --radius-md: 16px;
@@ -192,10 +192,10 @@ h3 {
   transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 .button:hover { transform: translateY(-2px); }
-.button:focus-visible { outline: 3px solid rgba(215, 163, 94, 0.35); outline-offset: 3px; }
+.button:focus-visible { outline: 3px solid rgba(143, 164, 191, 0.35); outline-offset: 3px; }
 .button-small { min-height: 44px; padding: 0 17px; font-size: 13px; }
 .button-primary { color: var(--navy-950); background: var(--accent); }
-.button-primary:hover { background: #e4b674; }
+.button-primary:hover { background: #a0b2c8; }
 .button-outline { color: var(--white); border-color: rgba(255,255,255,0.24); }
 .button-outline:hover { border-color: var(--accent); color: var(--accent); }
 .button-ghost { color: var(--white); border-color: rgba(255,255,255,0.16); background: rgba(255,255,255,0.04); }
@@ -217,7 +217,7 @@ h3 {
   width: 720px;
   height: 720px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(215,163,94,0.18), rgba(215,163,94,0) 66%);
+  background: radial-gradient(circle, rgba(143,164,191,0.18), rgba(143,164,191,0) 66%);
 }
 .hero-grid-bg {
   position: absolute;
