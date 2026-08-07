@@ -27,3 +27,10 @@ TNS GROUP — ГОТОВЫЙ САЙТ ДЛЯ GITHUB PAGES
 2. Скопируйте номер счётчика.
 3. В script.js замените строку const YANDEX_METRIKA_ID = 0; на ваш номер.
 4. После этого статистика будет доступна в кабинете Яндекс Метрики.
+
+FINAL BRAND UPDATE:
+- Shield emblem approved
+- Deep navy #0B1D3A
+- Burgundy #7A1E2D used only as a restrained accent
+- Light/white site preserved
+- No orange/gold palette

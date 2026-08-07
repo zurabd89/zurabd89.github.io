@@ -1,15 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 98" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 120" role="img" aria-labelledby="title desc">
   <title id="title">TNS Group</title>
-  <desc id="desc">TNS Group monogram</desc>
+  <desc id="desc">Логотип TNS Group: щит, глубокий синий и бордовая окантовка</desc>
   <g fill="none" fill-rule="evenodd">
-    <g transform="translate(5 7)">
-      <path d="M12 12H69" stroke="#5B57E6" stroke-width="4" stroke-linecap="round"/>
-      <path d="M40.5 12V71" stroke="#5B57E6" stroke-width="4" stroke-linecap="round"/>
-      <path d="M18 71V28L61 71V28" stroke="#1B2340" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M71 30C66 22 57 18 48 18C36 18 29 24 29 32C29 43 39 46 51 49C64 53 72 58 72 69C72 79 62 85 49 85C37 85 27 80 20 71" stroke="#1B2340" stroke-width="5" stroke-linecap="round"/>
+    <g transform="translate(4 4) scale(.255)">
+      <path d="M180 22C134 51 89 59 48 61v126c0 101 55 170 132 211 77-41 132-110 132-211V61c-41-2-86-10-132-39Z" fill="#FFFFFF" stroke="#0B1D3A" stroke-width="12"/>
+      <path d="M180 43C139 67 101 75 70 77v109c0 86 45 145 110 183 65-38 110-97 110-183V77c-31-2-69-10-110-34Z" stroke="#7A1E2D" stroke-width="5"/>
+      <text x="180" y="217" text-anchor="middle" fill="#0B1D3A" font-family="Georgia, 'Times New Roman', serif" font-size="142" font-weight="700">T</text>
+      <text x="180" y="286" text-anchor="middle" fill="#0B1D3A" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="700" letter-spacing="-10">NS</text>
     </g>
-    <text x="102" y="58" fill="#1B2340" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="2">TNS</text>
-    <text x="210" y="58" fill="#5B57E6" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="500" letter-spacing="1.5">GROUP</text>
-    <text x="103" y="80" fill="#667085" font-family="Manrope, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="3.1">BUSINESS OPERATIONS</text>
+    <text x="112" y="66" fill="#0B1D3A" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" letter-spacing="4">TNS</text>
+    <text x="252" y="66" fill="#0B1D3A" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="600" letter-spacing="5">GROUP</text>
+    <rect x="112" y="82" width="56" height="3" rx="1.5" fill="#7A1E2D"/>
+    <text x="112" y="103" fill="#6A7280" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="3">BUSINESS OPERATIONS</text>
   </g>
 </svg>

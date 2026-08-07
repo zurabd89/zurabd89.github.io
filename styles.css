@@ -435,3 +435,98 @@ body{font-family:"Inter",Arial,sans-serif;background:#fff;color:var(--ink)}
 .contact-card{background:#fff;border:1px solid #e6e4ee;box-shadow:0 22px 60px rgba(24,32,51,.10)}
 .site-footer{color:#697386;background:#fff;border-top:1px solid #e9e7ee}.footer-links a{color:#4d5668}.footer-links a:hover{color:var(--accent-dark)}
 @media(max-width:820px){.main-nav{background:#fff;border-top:1px solid #e7e5ed;box-shadow:0 24px 50px rgba(24,32,51,.14)}.main-nav a{color:var(--ink);border-bottom-color:#eceaf1}.hero{padding-top:74px}.hero-visual{min-height:390px}.hero-grid-bg{opacity:.20}}
+
+/* =========================================================
+   TNS GROUP — FINAL BRAND SYSTEM
+   Shield emblem · Deep navy + burgundy · Light premium site
+   ========================================================= */
+:root{
+  --brand-navy:#0B1D3A;
+  --brand-navy-2:#17345A;
+  --brand-burgundy:#7A1E2D;
+  --brand-burgundy-dark:#641724;
+  --brand-burgundy-soft:#F7ECEE;
+  --brand-ivory:#FAF9F7;
+  --brand-warm:#F4F1EC;
+  --brand-line:#E7E3DE;
+  --ink:#15233A;
+  --muted:#657083;
+  --line:#E7E3DE;
+  --soft:#F7F5F2;
+  --soft-blue:#F1F4F8;
+  --accent:var(--brand-burgundy);
+  --accent-bright:#9A3040;
+  --accent-dark:var(--brand-burgundy-dark);
+  --accent-soft:var(--brand-burgundy-soft);
+  --navy-1000:#08172E;
+  --navy-950:var(--brand-navy);
+  --navy-900:#112948;
+  --navy-850:#183557;
+  --navy-800:#28486B;
+  --shadow:0 18px 50px rgba(11,29,58,.08);
+  --shadow-dark:0 26px 70px rgba(11,29,58,.16);
+}
+body{background:#fff;color:var(--ink)}
+.site-header{color:var(--ink);background:rgba(255,255,255,.95);border-bottom:1px solid rgba(11,29,58,.09);box-shadow:0 7px 24px rgba(11,29,58,.035)}
+.main-nav a{color:#4E5B6D}.main-nav a:hover,.main-nav a:focus-visible,.main-nav a.is-active{color:var(--brand-navy)}
+.main-nav a::after{background:var(--brand-burgundy)}
+.button-primary{color:#fff;background:var(--brand-navy);box-shadow:0 12px 30px rgba(11,29,58,.16)}
+.button-primary:hover{background:var(--brand-navy-2);box-shadow:0 16px 36px rgba(11,29,58,.22)}
+.button-outline,.button-ghost{color:var(--brand-navy);border-color:#CBD2DB;background:rgba(255,255,255,.78)}
+.button-outline:hover,.button-ghost:hover{color:var(--brand-burgundy);border-color:var(--brand-burgundy);background:#fff}
+.button:focus-visible{outline-color:rgba(122,30,45,.24)}
+.eyebrow,.eyebrow-dark{color:var(--brand-burgundy)}
+
+.hero.section-dark{color:var(--ink);background:linear-gradient(120deg,#fff 0%,#fff 58%,#F7F4F1 100%)}
+.hero{border-bottom:1px solid var(--brand-line)}
+.hero-grid-bg{opacity:.34;background-image:radial-gradient(circle,rgba(11,29,58,.10) 1.1px,transparent 1.25px);background-size:25px 25px;mask-image:linear-gradient(90deg,transparent 3%,black 44%,black 100%)}
+.hero-orb-a{background:radial-gradient(circle,rgba(122,30,45,.075),rgba(122,30,45,0) 68%)}
+.hero-orb-b{background:radial-gradient(circle,rgba(11,29,58,.055),rgba(11,29,58,0) 70%)}
+.hero h1{color:var(--brand-navy)}
+.hero h1 span{color:var(--brand-navy)}
+.hero h1 span::after{height:4px;left:0;right:0;bottom:-.06em;background:var(--brand-burgundy);transform:none;border-radius:999px}
+.hero-lead{color:#596578}
+.hero-trust span{color:#596578;background:rgba(255,255,255,.92);border-color:#E4DFDA;box-shadow:0 8px 22px rgba(11,29,58,.045)}
+.hero-emblem-halo{width:390px;height:390px;background:radial-gradient(circle,rgba(122,30,45,.07),rgba(11,29,58,.04) 48%,rgba(255,255,255,0) 72%)}
+.hero-emblem{width:300px;max-width:72%;height:auto;filter:drop-shadow(0 22px 34px rgba(11,29,58,.12));animation:emblemFloat 6s ease-in-out infinite}
+.hero-float-card{background:rgba(255,255,255,.95);border-color:#E4DFDA;box-shadow:0 18px 46px rgba(11,29,58,.10)}
+.hero-float-card::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0;background:var(--brand-burgundy)}
+.hero-float-card b{color:var(--brand-navy)}
+.hero-float-card span{color:#747E8D}
+.metrics-row{border-top-color:#E5E0DB}.metric,.metric:first-child{border-color:#E5E0DB}.metric strong{color:var(--brand-navy)}.metric span{color:#687386}
+
+.value-strip{background:var(--brand-warm);border-top:1px solid #ECE7E1;border-bottom:1px solid #E6E0D9;position:relative}
+.value-strip::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--brand-burgundy)}
+.value-strip-inner strong{color:var(--brand-navy)}.value-strip-inner span{color:#5F6978}.value-strip-inner a{color:var(--brand-burgundy)}
+
+.solutions-section{background:#fff}.solution-card{border-color:#E7E2DD;box-shadow:0 18px 50px rgba(11,29,58,.055)}
+.solution-card:hover{box-shadow:0 28px 72px rgba(11,29,58,.10)}
+.solution-card::before{background:radial-gradient(circle,rgba(122,30,45,.06),rgba(122,30,45,0) 68%)}
+.solution-meta{color:var(--brand-burgundy)}.solution-meta span:first-child{border-color:#E7D5D8;background:#FBF5F6}
+.solution-points li::before{border-color:var(--brand-burgundy)}.text-link{color:var(--brand-burgundy)}
+.solution-visual{background:linear-gradient(145deg,#F7F5F2,#fff)}
+
+.pricing-section,.section#pricing{background:linear-gradient(180deg,#F7F5F2,#fff)}
+.price-card{border-color:#E7E2DD;box-shadow:0 16px 42px rgba(11,29,58,.055)}
+.price-card.featured{border:2px solid var(--brand-navy);box-shadow:0 22px 55px rgba(11,29,58,.12)}
+.price-badge{background:var(--brand-burgundy);color:#fff}
+.price-card.featured::before{content:"";position:absolute;left:24px;right:24px;top:-2px;height:3px;background:var(--brand-burgundy);border-radius:0 0 4px 4px}
+.price-list li::before{border-color:var(--brand-burgundy)}
+.pricing-note{background:#fff;border-left-color:var(--brand-burgundy)}
+
+.project-section.section-dark{position:relative;color:#fff;background:linear-gradient(135deg,#0B1D3A 0%,#17345A 100%)}
+.project-section::before{background:radial-gradient(circle at 92% 4%,rgba(122,30,45,.25),transparent 36%)}
+.project-section .eyebrow{color:#D8A6AE}.project-intro p:not(.eyebrow){color:#D4DCE7}
+.project-price-list{border-color:rgba(255,255,255,.18)}.project-price-list>div{border-color:rgba(255,255,255,.16)}.project-price-list>div:hover{background:rgba(122,30,45,.16)}
+
+.results-section{background:#fff}.result-card{border-color:#E7E2DD;box-shadow:0 14px 38px rgba(11,29,58,.05)}.result-card strong{color:var(--brand-burgundy)}
+#approach{background:#FBF9F6}.step-card{border-color:#E7E2DD}.step-card>span{color:var(--brand-burgundy)}
+.expertise-board{background:linear-gradient(145deg,#F5F7FA,#FBF7F6);border-color:#E5E1DC}.board-card{border-color:#E5E1DC;box-shadow:0 16px 40px rgba(11,29,58,.07)}
+.faq-section{background:#F8F6F3}summary::after{color:var(--brand-burgundy)}
+.contact-section{color:var(--ink);background:linear-gradient(120deg,#fff 0%,#F8F5F3 100%);border-top:1px solid var(--brand-line)}
+.contact-section::before{background:radial-gradient(circle at 88% 8%,rgba(122,30,45,.10),transparent 31%)}
+.contact-mini span{color:var(--brand-burgundy);border-color:#E2D4D7}.contact-mini i{background:#DCD7D2}
+.contact-card{border-color:#E6E1DC;box-shadow:0 22px 60px rgba(11,29,58,.09)}
+.site-footer{color:#687386;background:#fff;border-top:1px solid #E7E2DD}.footer-links a{color:#4D586A}.footer-links a:hover{color:var(--brand-burgundy)}
+
+@media(max-width:820px){.main-nav{background:#fff;border-top:1px solid #E7E2DD;box-shadow:0 24px 50px rgba(11,29,58,.13)}.main-nav a{color:var(--ink);border-bottom-color:#ECE7E2}}
