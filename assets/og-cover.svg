@@ -1,11 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#F7F3EA"/>
-<circle cx="970" cy="110" r="320" fill="#EFE7D7"/>
-<g transform="translate(90 140)">
-  <path d="M0 0H180M90 0V180" stroke="#B7A071" stroke-width="10" stroke-linecap="round"/>
-  <path d="M15 180V35L165 180V35" fill="none" stroke="#17304A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<text x="340" y="250" fill="#17304A" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="700">TNS GROUP</text>
-<text x="345" y="320" fill="#66717B" font-family="Arial,Helvetica,sans-serif" font-size="30">Внешняя команда для бизнеса</text>
-<text x="345" y="374" fill="#8F7B52" font-family="Arial,Helvetica,sans-serif" font-size="24">Back Office · Management · Industrial &amp; Projects</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="TNS Group — практический консалтинг для бизнеса">
+  <rect width="1200" height="630" fill="#FAF9F7"/>
+  <path d="M890 0H1200V630H1050C1030 440 1060 210 890 0Z" fill="#EEF1F4"/>
+  <path d="M1010 0H1200V630H1140C1080 390 1110 170 1010 0Z" fill="#0B1D3A"/>
+  <path d="M1080 0C990 230 1030 450 930 630" fill="none" stroke="#7A1E2D" stroke-width="8" opacity=".65"/>
+  <path d="M80 545H810" stroke="#D8D9DC" stroke-width="2"/>
+  <g transform="translate(76 70) scale(.33)">
+    <path d="M180 22C134 51 89 59 48 61v126c0 101 55 170 132 211 77-41 132-110 132-211V61c-41-2-86-10-132-39Z" fill="#FFFFFF" stroke="#0B1D3A" stroke-width="12"/>
+    <path d="M180 43C139 67 101 75 70 77v109c0 86 45 145 110 183 65-38 110-97 110-183V77c-31-2-69-10-110-34Z" fill="none" stroke="#7A1E2D" stroke-width="5"/>
+    <text x="180" y="217" text-anchor="middle" fill="#0B1D3A" font-family="Georgia,serif" font-size="142" font-weight="700">T</text>
+    <text x="180" y="286" text-anchor="middle" fill="#0B1D3A" font-family="Georgia,serif" font-size="96" font-weight="700" letter-spacing="-10">NS</text>
+  </g>
+  <text x="220" y="167" fill="#0B1D3A" font-family="Georgia,serif" font-size="55" font-weight="700" letter-spacing="3">TNS</text>
+  <text x="400" y="167" fill="#0B1D3A" font-family="DejaVu Sans,Arial,sans-serif" font-size="38" font-weight="600" letter-spacing="5">GROUP</text>
+  <rect x="220" y="187" width="72" height="4" rx="2" fill="#7A1E2D"/>
+  <text x="80" y="340" fill="#0B1D3A" font-family="DejaVu Sans,Arial,sans-serif" font-size="47" font-weight="700">Практический консалтинг</text>
+  <text x="80" y="407" fill="#0B1D3A" font-family="DejaVu Sans,Arial,sans-serif" font-size="47" font-weight="700">для бизнеса</text>
+  <text x="82" y="505" fill="#7A1E2D" font-family="DejaVu Sans,Arial,sans-serif" font-size="22" font-weight="600">Право  ·  экономика  ·  управление  ·  проекты</text>
+  <text x="82" y="588" fill="#596578" font-family="DejaVu Sans,Arial,sans-serif" font-size="20">tns-grp.ru</text>
 </svg>
