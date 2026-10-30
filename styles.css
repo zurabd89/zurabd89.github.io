@@ -725,6 +725,7 @@ h1,h2,h3 { font-family:"Inter",Arial,sans-serif; }
 .experience-project-group-label { display:block; margin-bottom:8px; color:#687386; font-size:12px; }
 .experience-brand-list { display:flex; flex-wrap:wrap; gap:8px; }
 .experience-brand-list span { display:inline-flex; align-items:center; min-height:36px; padding:7px 10px; color:#0B1D3A; background:#fff; border:1px solid #E0DBD5; border-radius:10px; font-size:15px; font-weight:750; letter-spacing:-.01em; }
+.experience-tech-note { align-self:center; color:#687386; font-size:13px; line-height:1.35; }
 .experience-role { margin-bottom:0; font-size:14px; }
 .experience-role b { color:#0B1D3A; }
 .results-section { background:#f8f6f3; }
