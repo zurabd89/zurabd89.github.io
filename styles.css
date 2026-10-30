@@ -721,8 +721,10 @@ h1,h2,h3 { font-family:"Inter",Arial,sans-serif; }
 .experience-facts strong { color:#0B1D3A; font-size:24px; line-height:1.1; }
 .experience-projects { margin:24px 0 21px; padding:20px 0; border-top:1px solid #E7E2DD; border-bottom:1px solid #E7E2DD; }
 .experience-projects-label { display:block; margin-bottom:13px; color:#697586; font-size:12px; font-weight:700; letter-spacing:.03em; }
+.experience-project-group + .experience-project-group { margin-top:15px; }
+.experience-project-group-label { display:block; margin-bottom:8px; color:#687386; font-size:12px; }
 .experience-brand-list { display:flex; flex-wrap:wrap; gap:8px; }
-.experience-brand-list span { display:inline-flex; align-items:center; min-height:40px; padding:8px 13px; color:#0B1D3A; background:#fff; border:1px solid #E0DBD5; border-radius:10px; font-size:18px; font-weight:800; letter-spacing:-.02em; }
+.experience-brand-list span { display:inline-flex; align-items:center; min-height:36px; padding:7px 10px; color:#0B1D3A; background:#fff; border:1px solid #E0DBD5; border-radius:10px; font-size:15px; font-weight:750; letter-spacing:-.01em; }
 .experience-role { margin-bottom:0; font-size:14px; }
 .experience-role b { color:#0B1D3A; }
 .results-section { background:#f8f6f3; }
@@ -748,6 +750,6 @@ h1,h2,h3 { font-family:"Inter",Arial,sans-serif; }
   .hero.hero-light .hero-content { padding-bottom:20px; }
   .experience-card { padding:26px 22px; }
   .experience-facts strong { font-size:21px; }
-  .experience-brand-list span { font-size:16px; }
+  .experience-brand-list span { font-size:14px; }
   .contact-phone { font-size:20px; }
 }
