@@ -754,3 +754,16 @@ h1,h2,h3 { font-family:"Inter",Arial,sans-serif; }
   .experience-brand-list span { font-size:14px; }
   .contact-phone { font-size:20px; }
 }
+
+/* Leadership: second profile */
+.team-member-layout { grid-template-columns:minmax(0,1.18fr) minmax(320px,.82fr); grid-template-areas:"copy photo"; margin-top:clamp(70px,8vw,110px); padding-top:clamp(70px,8vw,110px); border-top:1px solid #e3ded8; }
+.team-member-photo { grid-area:photo; justify-self:end; width:100%; }
+.team-member-copy { grid-area:copy; }
+.team-member-image { object-position:center 28%; }
+@media (max-width:1050px) {
+  .team-member-layout { grid-template-columns:minmax(0,1.25fr) minmax(240px,.75fr); }
+}
+@media (max-width:820px) {
+  .team-member-layout { grid-template-columns:1fr; grid-template-areas:"photo" "copy"; }
+  .team-member-photo { justify-self:start; }
+}
